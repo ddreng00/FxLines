@@ -27,7 +27,7 @@ public class FxLines extends Application {
     int delta = 12;
     @Override
     public void start(Stage primaryStage) {
-        x1 = 10; x2 = 10; y1 =100; y2 = 150;
+        x1 = 100; x2 = 150; y1 =10; y2 = 10;
         Button btn = new Button();        
         btn.setText("Draw a line"); //Change text
         btn.setOnAction(new EventHandler<ActionEvent>() {
