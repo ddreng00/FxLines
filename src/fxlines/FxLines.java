@@ -36,7 +36,7 @@ public class FxLines extends Application {
                 x1 += delta;
                 y2 += delta;
                 Line line = new Line(x1,y1,x2,y2);
-                line.setStroke(Color.BROWN);//Change color to Red
+                line.setStroke(Color.RED);//Change color to Red
                 line.setStrokeWidth(2);
                 root.getChildren().add(line);
             }
